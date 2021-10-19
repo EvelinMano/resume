@@ -1,0 +1,138 @@
+body{
+	font-family: 'Shadows Into Light', cursive;
+	/*font-weight:80px;*/
+}
+
+.navbar a{
+	color:white;
+}
+
+#about{
+	background-image:url("./../css/backpage.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 450px;
+
+}
+
+#about img{
+	transition: 0.3s ease-in-out;
+}
+
+ img:hover{
+	
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+    z-index: 1;
+}
+
+.sec1{
+	margin-top:10%;
+	background:black;
+	opacity:0.5;
+	color:white;
+	border-radius:10px;
+	border-top:5px solid white;
+	border-bottom:5px solid white;
+	transition: 0.3s ease-in-out;
+
+}
+.sec1:hover{
+	
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+    z-index: 1;
+}
+.sec2{
+	margin-top:10%;
+}
+.pic{
+	border-radius:50%;
+	margin-top:-80px;
+	border:5px black;
+}
+
+#technical{
+	background-image:url("./../css/backpage2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*height: 450px;*/
+}
+#technical hr{
+	background: white;
+	width:100px;
+}
+.tech{
+	background:black;
+	opacity:0.5;
+	color:white;
+	padding:20px;
+}/*
+.achieve{
+	background:linear-gradient(to left, rgba(146, 206, 139, 0.8), #ccffff 100%)
+}*/
+
+.block1{
+	background:black;
+	opacity:0.5;
+	border-radius: 10px;
+	
+	color:white;
+}
+.block1:hover{
+	background:white;
+	color:black;
+	border:5px solid black;
+}
+.side{
+	border-radius: 50%;
+}
+.dropp{
+	float:right;
+}
+
+.part .card{
+	border:0px;
+}
+
+#footer-bot .fa
+{
+	background:white;
+	width:30px;
+	height:30px;
+	padding:8px;
+	border-radius: 10px;
+	color:black;
+	 transition: all 0.3s ease-in-out;
+}
+
+#footer-bot .fa:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+/* latin */
+@font-face {
+  font-family: 'Shadows Into Light';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./assets/fonts/shadows.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@media(max-width:570px){
+	.achieve h1{
+		font-size:20px;
+	}
+}
